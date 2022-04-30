@@ -1,0 +1,179 @@
+.footer {
+    margin-right: 0px;
+    margin-left: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    -webkit-box-align: start;
+    -webkit-align-items: flex-start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+    -webkit-box-flex: 0;
+    -webkit-flex: 0 auto;
+    -ms-flex: 0 auto;
+    flex: 0 auto;
+    background-color: #000;
+    text-align: center;
+  }
+  
+  .footer-flex-container {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    margin-bottom: 40px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    text-align: left;
+  }
+  
+  .circle {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    width: 100px;
+    height: 100px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    border-radius: 50px;
+    background-color: #050a30;
+    line-height: 44px;
+    text-align: left;
+  }
+  
+  .circle:hover {
+    width: 100px;
+    height: 100px;
+    border-radius: 75px;
+  }
+  
+  .heading {
+    margin-bottom: 40px;
+    font-family: 'Times New Roman', TimesNewRoman, Times, Baskerville, Georgia, serif;
+    color: #a10f18;
+    font-weight: 400;
+  }
+  
+  .footer-menu {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: start;
+    -webkit-justify-content: flex-start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+  }
+  
+  .circle-text {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    color: tan;
+    font-size: 20px;
+    text-decoration: none;
+  }
+  
+  .email-me {
+    -webkit-transition: -webkit-transform 500ms ease;
+    transition: -webkit-transform 500ms ease;
+    transition: transform 500ms ease;
+    transition: transform 500ms ease, -webkit-transform 500ms ease;
+    text-decoration: none;
+  }
+  
+  .email-me:hover {
+    -webkit-transform: rotate(-30deg) scale(1.4);
+    -ms-transform: rotate(-30deg) scale(1.4);
+    transform: rotate(-30deg) scale(1.4);
+  }
+  
+  .footer-button {
+    padding-right: 10px;
+    padding-left: 10px;
+    -webkit-box-flex: 0;
+    -webkit-flex: 0 auto;
+    -ms-flex: 0 auto;
+    flex: 0 auto;
+    opacity: 0.75;
+    -webkit-transition: opacity 700ms ease;
+    transition: opacity 700ms ease;
+  }
+  
+  .footer-button:hover {
+    opacity: 1;
+    color: white;
+  }
+  
+  .footer-link {
+    display: inline-block;
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+    font-size: 12px;
+    line-height: 22px;
+    font-weight: 300;
+    text-decoration: none;
+  }
+  .footer-link:hover {
+      color: white;
+  }
+  
+  @media screen and (max-width: 991px) {
+    .footer {
+      padding-right: 0px;
+      padding-left: 0px;
+    }
+  }
+  
+  @media screen and (max-width: 767px) {
+    .footer {
+      padding: 0px;
+    }
+  }
+  
+  @media screen and (max-width: 479px) {
+    .footer {
+      padding-right: 0px;
+      padding-left: 0px;
+      text-align: left;
+    }
+  
+    .footer-flex-container {
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+      flex-direction: column;
+    }
+  
+    .footer-menu {
+      -webkit-justify-content: space-around;
+      -ms-flex-pack: distribute;
+      justify-content: space-around;
+    }
+  
+    .footer-link {
+      text-align: center;
+    }
+  }
